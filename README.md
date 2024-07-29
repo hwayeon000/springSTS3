@@ -2,6 +2,6 @@
 
 ### 스프링 개발 환경 구축
 ### 스프링 MVC 설정
-##### Spring MVC Project 생성 불가능
+##### ‘Spring Legacy Prject’를 통한  ‘Spring MVC Project’ 생성 불가능
 * https://cafe.naver.com/gugucoding/9370
 * https://wildeveloperetrain.tistory.com/m/347 -> 두 군데 참고하여 생성

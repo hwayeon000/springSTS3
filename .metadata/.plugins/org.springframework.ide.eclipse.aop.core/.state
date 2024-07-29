@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringStudy_01"/>
+<aop-project name="JavaConfigurationEx01"/>
+<aop-project name="SpringStudy_2"/>
+</aop-reference-model>

@@ -1,0 +1,402 @@
+[2024-07-25 14:30:06] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:30:06] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:30:06 KST 2024]; root of context hierarchy
+[2024-07-25 14:30:06] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:30:08] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:30:09] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:30:06 KST 2024]; root of context hierarchy
+[2024-07-25 14:30:09] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:30:06 KST 2024]; root of context hierarchy
+[2024-07-25 14:30:09] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3008 ms
+[2024-07-25 14:30:09] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:30:09] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:30:09 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:30:09] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:30:10] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:30:10] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:30:10] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:30:10] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:30:10] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:30:09 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:30:10] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:30:09 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:30:10] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:30:10] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 740 ms
+[2024-07-25 14:30:53] INFO : AbstractApplicationContext.java:993 - Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:30:09 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:30:53] INFO : AbstractApplicationContext.java:993 - Closing Root WebApplicationContext: startup date [Thu Jul 25 14:30:06 KST 2024]; root of context hierarchy
+[2024-07-25 14:31:15] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:31:15] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:31:15 KST 2024]; root of context hierarchy
+[2024-07-25 14:31:15] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:31:17] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:31:18] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:31:15 KST 2024]; root of context hierarchy
+[2024-07-25 14:31:18] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:31:15 KST 2024]; root of context hierarchy
+[2024-07-25 14:31:18] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3011 ms
+[2024-07-25 14:31:18] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:31:18] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:31:18 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:31:18] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:31:19] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:31:19] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:31:19] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:31:19] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:31:19] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:31:18 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:31:19] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:31:18 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:31:19] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:31:19] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 728 ms
+[2024-07-25 14:31:20] WARN : DispatcherServlet.java:1205 - No mapping found for HTTP request with URI [/SpringStudy_01/] in DispatcherServlet with name 'appServlet'
+[2024-07-25 14:31:57] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:31:57] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:31:57 KST 2024]; root of context hierarchy
+[2024-07-25 14:31:58] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:31:59] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:32:00] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:31:57 KST 2024]; root of context hierarchy
+[2024-07-25 14:32:00] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:31:57 KST 2024]; root of context hierarchy
+[2024-07-25 14:32:00] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 2929 ms
+[2024-07-25 14:32:00] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:32:00] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:32:00 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:32:00] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:32:01] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:32:01] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:32:01] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:32:01] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:32:01] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:32:00 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:32:01] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:32:00 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:32:01] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:32:01] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 655 ms
+[2024-07-25 14:34:48] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:34:48] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:34:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:34:48] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:34:50] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:34:51] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:34:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:34:51] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:34:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:34:51] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 2867 ms
+[2024-07-25 14:34:51] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:34:51] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:34:51 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:34:51] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:34:51] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:34:51] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:34:51] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:34:51] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:34:51] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:34:51 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:34:51] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:34:51 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:34:51] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:34:52] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 668 ms
+[2024-07-25 14:34:52] WARN : DispatcherServlet.java:1205 - No mapping found for HTTP request with URI [/SpringStudy_2/] in DispatcherServlet with name 'appServlet'
+[2024-07-25 14:37:56] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:37:56] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:37:56 KST 2024]; root of context hierarchy
+[2024-07-25 14:37:56] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:37:58] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:37:59] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:37:59] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:37:59] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:37:59] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:37:56 KST 2024]; root of context hierarchy
+[2024-07-25 14:37:59] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:37:56 KST 2024]; root of context hierarchy
+[2024-07-25 14:37:59] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3301 ms
+[2024-07-25 14:37:59] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:37:59] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:37:59 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:37:59] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:38:00] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:38:00] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:38:00] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:38:00] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:38:00] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:37:59 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:38:00] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:37:59 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:38:00] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:38:00] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 543 ms
+[2024-07-25 14:44:08] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:44:08] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:44:08 KST 2024]; root of context hierarchy
+[2024-07-25 14:44:08] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:44:10] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:44:11] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:44:11] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:44:11] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:44:11] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:44:08 KST 2024]; root of context hierarchy
+[2024-07-25 14:44:11] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:44:08 KST 2024]; root of context hierarchy
+[2024-07-25 14:44:11] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3222 ms
+[2024-07-25 14:44:11] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:44:11] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:44:11 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:44:11] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from class path resource [WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:44:11] ERROR: FrameworkServlet.java:503 - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [WEB-INF/spring/appServlet/servlet-context.xml]; nested exception is java.io.FileNotFoundException: class path resource [WEB-INF/spring/appServlet/servlet-context.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:343)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:621)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:522)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:672)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:686)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:554)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:983)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4902)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5206)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+Caused by: java.io.FileNotFoundException: class path resource [WEB-INF/spring/appServlet/servlet-context.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:329)
+	... 49 more
+[2024-07-25 14:46:08] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:46:08] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:46:08 KST 2024]; root of context hierarchy
+[2024-07-25 14:46:08] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:46:09] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:46:10] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:46:10] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:46:10] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:46:10] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:46:08 KST 2024]; root of context hierarchy
+[2024-07-25 14:46:10] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:46:08 KST 2024]; root of context hierarchy
+[2024-07-25 14:46:11] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 2920 ms
+[2024-07-25 14:46:11] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:46:11] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:46:11 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:46:11] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:46:11] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:46:11] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:46:11] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:46:11] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:46:11] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:46:11 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:46:11] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:46:11 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:46:11] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:46:11] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 472 ms
+[2024-07-25 14:53:48] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:53:48] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:53:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:53:48] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:53:50] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:53:51] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:53:51] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:53:51] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:53:52] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:53:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:53:52] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:53:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:53:52] INFO : ExceptionHandlerExceptionResolver.java:288 - Detected @ExceptionHandler methods in commonExceptionAdvice
+[2024-07-25 14:53:52] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3947 ms
+[2024-07-25 14:53:52] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:53:52] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:53:52 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:53:52] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:53:52] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:53:52] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:53:52] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:53:52] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:53:52] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:53:52 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:53:53] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:53:52 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:53:53] INFO : ExceptionHandlerExceptionResolver.java:288 - Detected @ExceptionHandler methods in commonExceptionAdvice
+[2024-07-25 14:53:53] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:53:53] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 673 ms
+[2024-07-25 14:56:44] INFO : AbstractApplicationContext.java:993 - Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:53:52 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:56:44] INFO : AbstractApplicationContext.java:993 - Closing Root WebApplicationContext: startup date [Thu Jul 25 14:53:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:56:48] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:56:48] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:56:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:56:48] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:56:48] WARN : SimpleSaxErrorHandler.java:48 - Ignored XML validation warning
+org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 63; schema_reference.4: Failed to read schema document 'https://www.springframework.org/schema/beans/spring-beans.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(ErrorHandlerWrapper.java:100)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:392)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:306)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaErr(XSDHandler.java:4218)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaWarning(XSDHandler.java:4209)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument1(XSDHandler.java:2516)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2218)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(XSDHandler.java:587)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(XMLSchemaLoader.java:617)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(XMLSchemaValidator.java:2710)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:2069)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:829)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3060)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:621)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:522)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:409)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4716)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5172)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3792)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:311)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5550)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:128)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:308)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:279)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:164)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1152)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1063)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:402)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:567)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:678)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:593)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:696)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(SchemaDOMParser.java:530)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2206)
+	... 50 more
+[2024-07-25 14:56:49] ERROR: ContextLoader.java:316 - Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 13 in XML document from ServletContext resource [/WEB-INF/application.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 63; cvc-elt.1.a: Cannot find the declaration of element 'beans'.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:621)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:522)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:409)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4716)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5172)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3792)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:311)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5550)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 63; cvc-elt.1.a: Cannot find the declaration of element 'beans'.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:2132)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:829)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3060)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 30 more
+[2024-07-25 14:56:49] INFO : AbstractApplicationContext.java:993 - Closing Root WebApplicationContext: startup date [Thu Jul 25 14:56:48 KST 2024]; root of context hierarchy
+[2024-07-25 14:59:04] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 14:59:04] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 14:59:04 KST 2024]; root of context hierarchy
+[2024-07-25 14:59:04] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 14:59:06] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:59:06] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:59:06] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:59:06] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:59:07] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:59:04 KST 2024]; root of context hierarchy
+[2024-07-25 14:59:07] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 14:59:04 KST 2024]; root of context hierarchy
+[2024-07-25 14:59:07] INFO : ExceptionHandlerExceptionResolver.java:288 - Detected @ExceptionHandler methods in commonExceptionAdvice
+[2024-07-25 14:59:07] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3074 ms
+[2024-07-25 14:59:07] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 14:59:07] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:59:07 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:59:07] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 14:59:07] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 14:59:07] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 14:59:07] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 14:59:07] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 14:59:07] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:59:07 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:59:07] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 14:59:07 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 14:59:07] INFO : ExceptionHandlerExceptionResolver.java:288 - Detected @ExceptionHandler methods in commonExceptionAdvice
+[2024-07-25 14:59:07] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 14:59:07] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 433 ms
+[2024-07-25 14:59:08] WARN : DispatcherServlet.java:1205 - No mapping found for HTTP request with URI [/SpringStudy_2/] in DispatcherServlet with name 'appServlet'
+[2024-07-25 15:00:21] INFO : ContextLoader.java:270 - Root WebApplicationContext: initialization started
+[2024-07-25 15:00:22] INFO : AbstractApplicationContext.java:590 - Refreshing Root WebApplicationContext: startup date [Thu Jul 25 15:00:22 KST 2024]; root of context hierarchy
+[2024-07-25 15:00:22] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+[2024-07-25 15:00:23] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 15:00:24] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 15:00:24] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 15:00:24] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 15:00:24] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 15:00:22 KST 2024]; root of context hierarchy
+[2024-07-25 15:00:24] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Jul 25 15:00:22 KST 2024]; root of context hierarchy
+[2024-07-25 15:00:24] INFO : ExceptionHandlerExceptionResolver.java:288 - Detected @ExceptionHandler methods in commonExceptionAdvice
+[2024-07-25 15:00:24] INFO : ContextLoader.java:310 - Root WebApplicationContext: initialization completed in 3115 ms
+[2024-07-25 15:00:25] INFO : FrameworkServlet.java:494 - FrameworkServlet 'appServlet': initialization started
+[2024-07-25 15:00:25] INFO : AbstractApplicationContext.java:590 - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 15:00:25 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 15:00:25] INFO : XmlBeanDefinitionReader.java:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[2024-07-25 15:00:25] INFO : AutowiredAnnotationBeanPostProcessor.java:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2024-07-25 15:00:25] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/home],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.home()
+[2024-07-25 15:00:25] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/greeting],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.greeting()
+[2024-07-25 15:00:25] INFO : AbstractHandlerMethodMapping.java:547 - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.zerock.controller.MainController.welcome()
+[2024-07-25 15:00:25] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 15:00:25 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 15:00:25] INFO : RequestMappingHandlerAdapter.java:574 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Jul 25 15:00:25 KST 2024]; parent: Root WebApplicationContext
+[2024-07-25 15:00:25] INFO : ExceptionHandlerExceptionResolver.java:288 - Detected @ExceptionHandler methods in commonExceptionAdvice
+[2024-07-25 15:00:25] INFO : AbstractUrlHandlerMapping.java:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2024-07-25 15:00:25] INFO : FrameworkServlet.java:509 - FrameworkServlet 'appServlet': initialization completed in 480 ms

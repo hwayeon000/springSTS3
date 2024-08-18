@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<!-- beans:bean -> 객체 생성, IoC -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	
+	<!-- 해당되는 패키지에서 controller(POJO)를 찾겠다 -->
+	<!-- 참고 : servlet-context에서는 controller annotation만 등록하고 나머지(service, repository, component 등)는 spring bean으로 등록하지 않는다.
+	use-default-filters="false" 로 설정하면 표기되지 않은 나머지(service, repository, component 등)는 spring bean으로 등록하지 않는다는 뜻이다. -->
+	<context:component-scan base-package="org.zerock.controller" use-default-filters="false">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
+	<context:component-scan base-package="org.zerock.controller"/>
+	
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"> 
+		<beans:property name="defaultEncoding" value="utf-8"/>
+		<!-- 1024*1024*10byte 10MB -->
+	    <beans:property name="maxUploadSize" value="104857560"/>
+		<!-- 1024*1024*2byte 2MB -->
+        <beans:property name="maxUploadSizePerFile" value="2097152"/>
+        <!-- <beans:property name="uploadTempDir" value="file:/c:/upload/tmp"/> -->
+		<beans:property name="uploadTempDir" value="org.springframework.core.io.FileSystemResource"/>
+        <beans:property name="maxInMemorySize" value="10485756"/>
+	</beans:bean> 
+	
+	<!-- <context:component-scan base-package="org.zerock"></context:component-scan>
+	<context:component-scan base-package="org.zerock.controller"></context:component-scan>
+	<context:component-scan base-package="org.zerock.sample"></context:component-scan> -->
+	
+</beans:beans>

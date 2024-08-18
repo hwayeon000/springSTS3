@@ -33,6 +33,11 @@
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
 		</init-param>
+		<!-- 404 에러 페이지로 넘기지 않고 Exception을 발생시키는 설정 -->
+		<init-param>
+			<param-name>throwExceptionIfNoHandlerFound</param-name>
+			<param-value>true</param-value>
+		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 		
@@ -50,11 +55,6 @@
 		</init-param>
 		<init-param>
 			<param-name>forceEncoding</param-name>
-			<param-value>true</param-value>
-		</init-param>
-		<!-- 404 에러 페이지로 넘기지 않고 Exception을 발생시키는 설정 -->
-		<init-param>
-			<param-name>throwExceptionIfNoHandlerFound</param-name>
 			<param-value>true</param-value>
 		</init-param>
 	</filter>
